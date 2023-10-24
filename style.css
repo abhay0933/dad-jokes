@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2073126956/display_1500/stock-vector-haha-laugh-pattern-funny-jokes-poster-background-ha-ha-text-writen-in-different-colors-and-sizes-2073126956.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    color: antiquewhite;
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-image: url("https://media.istockphoto.com/id/1165493240/photo/dark-empty-stage-with-spot-lights-comedy-standup-cabaret-night-club-stage-3d-render.webp?b=1&s=170667a&w=0&k=20&c=hZJXc8MiFdIR9MfZatJvboqE8rtdaI3Rc2Z6nRAxiAM=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: antiquewhite;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.container p{
+    font-size: 1.1rem;
+}
+
+.container h1{
+    font-size: 2rem;
+}
